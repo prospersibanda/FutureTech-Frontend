@@ -1,0 +1,50 @@
+/* HeroIntro.css */
+
+.hero-intro {
+    width: 100%;
+    padding: 120px 20px;
+    background-color: #0e0e0e;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    position: relative;
+  }
+  
+  .hero-intro-content {
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+  
+  .hero-intro-subtitle {
+    font-size: 22px;
+    color: #b0b0b0;
+    margin-bottom: 10px;
+  }
+  
+  .hero-intro-title {
+    font-size: 70px;
+    font-weight: bold;
+    margin: 10px 0;
+    line-height: 1.2;
+  }
+  
+  .hero-intro-description {
+    font-size: 20px;
+    color: #c7c7c7;
+    margin-bottom: 50px;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .hero-intro-content {
+      text-align: center;
+    }
+  
+    .hero-intro-title {
+      font-size: 50px;
+    }
+  
+    .hero-intro-description {
+      font-size: 18px;
+    }
+  }
