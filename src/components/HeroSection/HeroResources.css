@@ -1,0 +1,91 @@
+/* HeroResources.css */
+
+.hero-resources {
+    width: 100%;
+    background-color: #141414;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-bottom: 1px solid white;
+    gap: 40px;
+  }
+  
+  .resource-avatars {
+    left: 20px;
+    display: flex;
+    margin-bottom: -80px;
+    margin-left: 13vh;
+    gap: 15px;
+  }
+  .moon-img{
+    width: 55vh;
+  }
+  
+  .resource-avatars img {
+    width: 40px;
+    height: 40px;
+    margin-top: -15vh;
+    margin-left: -4vh;
+    border-radius: 50%;
+    border: 2px solid #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .resource-text {
+    margin-top: 0px;
+    margin-left: 10vh;
+    max-width: 500px;
+  }
+  
+  .resource-title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .resource-description {
+    font-size: 18px;
+    color: #c7c7c7;
+    margin-bottom: 20px;
+  }
+  
+  .explore-button {
+    background-color: transparent;
+    border: 2px solid #ffcc00;
+    padding: 15px 30px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffcc00;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  
+  .explore-button:hover {
+    background-color: #ffcc00;
+    color: #0e0e0e;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .hero-resources {
+      flex-direction: column;
+      text-align: center;
+      padding-top: 80px;
+    }
+  
+    .resource-avatars {
+      position: static;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+  
+    .resource-text {
+      margin-top: 0;
+    }
+  }
+  
